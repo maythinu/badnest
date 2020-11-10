@@ -34,6 +34,22 @@ The camera's region is one of `us` or `eu` depending on your region.
 If you're not in the US or EU, you should be able to add your
 two-character country code, and it should work.
 
+### Example configuration.yaml - When you are using the Nest Auth Login
+
+```yaml
+badnest:
+  user_id: 123456
+  access_token: "b.123456....."
+  region: us
+
+climate:
+  - platform: badnest
+    scan_interval: 10
+
+sensor:
+  - platform: badnest
+```
+
 ### Example configuration.yaml - When you are using the Google Auth Login
 
 ```yaml
