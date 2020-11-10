@@ -49,6 +49,7 @@ climate:
 sensor:
   - platform: badnest
 ```
+To get access token, please follow instruction from https://thingsthataresmart.wiki/index.php?title=My_NextServiceMgr#Issue_.2314:_My_Next_devices_are_not_updating_or_my_auth_tokens_are_lost
 
 ### Example configuration.yaml - When you are using the Google Auth Login
 
