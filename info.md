@@ -46,6 +46,9 @@ climate:
   - platform: badnest
     scan_interval: 10
 
+camera:
+  - platform: badnest
+
 sensor:
   - platform: badnest
 ```
