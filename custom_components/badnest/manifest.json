@@ -1,6 +1,7 @@
 {
   "domain": "badnest",
   "name": "Bad Nest (A hack around the Nest component to pull from their internal api)",
+  "version": "1.0.1"
   "documentation": "https://github.com/maythinu/badnest",
   "dependencies": [],
   "codeowners": [
